@@ -84,6 +84,6 @@ Example: Following the Fame Lady example we talked about above, the raw data we 
 9\. If you’ve made it this far give yourself a pat on the back! Now you’re ready to deploy your subgraph so that you can use your API in your dapp. First, you must authenticate. Copy your access token by navigating to “My Dashboard.” Then, run this command in the terminal: ```
 graph auth https://api.thegraph.com/deploy/ <ACCESS_TOKEN>```
 
-10\. Deploy your subgraph with this command: ```yarn deploy```
+10\. Build your subgraph with ```graph build``` Deploy your subgraph with this command: ```yarn deploy```
 
 11\. When the subgraph is deployed, the UI will update and you’ll be able to make queries in the playground similar to a GraphQL playground. 
