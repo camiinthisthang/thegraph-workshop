@@ -12,7 +12,7 @@ The repo with the code for this project can be found [here.](https://github.com/
 You can spin up a subgraph in just a few minutes with the help of [The Graph’s CLI](https://thegraph.com/docs/en/developer/quick-start/). 
 1\. Head to the [Hosted Service](https://thegraph.com/hosted-service/) and sign up with Github. 
 
-2\. Navigate to “My Dashboard”, then hit “Add subgraph” and give it a name. The other details are optional. Then hit “Create Subgraph” at the bottom of the page. You’ll notice you’re given an access token which you’ll need to deploy your subgraph later.
+2\. Navigate to “My Dashboard”, then hit “Add subgraph” and give it a name and description. The other details are optional. Then hit “Create Subgraph” at the bottom of the page. You’ll notice you’re given an access token which you’ll need to deploy your subgraph later.
 
 3\. Install The Graph CLI with this command: >>npm install -g @graphprotocol/graph-cli<<
 
