@@ -8,6 +8,8 @@ Query the subgraph [here.](https://thegraph.com/hosted-service/subgraph/camiinth
 
 The repo with the code for this project can be found [here.](https://github.com/camiinthisthang/fameladysquad-subgraph)
 
+[A cheatsheet for working with AssemblyScript in your mappings.ts file.](https://github.com/camiinthisthang/assemblyscript-cheatsheet-thegraph)
+
 ## Building a Subgraph
 
 > Note: The Graph offers two products: the Hosted Service and Subgraph Studio. Subgraph Studio is the fully decentralized version of the Hosted Service. Hosted Service will eventually be sunset once Studio reaches feature parity. Because our project’s metadata is stored in IPFS, we will be using the Hosted Service.
