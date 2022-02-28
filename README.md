@@ -22,11 +22,11 @@ You can spin up a subgraph in just a few minutes with the help of [The Graph’s
 
 2\. Navigate to “My Dashboard”, then hit “Add subgraph” and give it a name and description. The other details are optional. Then hit “Create Subgraph” at the bottom of the page. You’ll notice you’re given an access token which you’ll need to deploy your subgraph later.
 
-3\. Install The Graph CLI with this command: >>npm install -g @graphprotocol/graph-cli<<
+3\. Install The Graph CLI with this command: ```npm install -g @graphprotocol/graph-cli```
 
 4\. Initialize your subgraph via the CLI command:
 ```
-graph init --from-contract 0x-contract-address-here \ --contract-name Token --index-events
+graph init --from-contract 0xf3E6DbBE461C6fa492CeA7Cb1f5C5eA660EB1B47 \ --contract-name Token --index-events
 ```
 By using the ```index-events``` flag, the CLI will automatically generate some code based on the events emitted from the contract address you passed in.
 
