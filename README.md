@@ -15,6 +15,7 @@ The repo with the code for this project can be found [here.](https://github.com/
 > Note: The Graph offers two products: the Hosted Service and Subgraph Studio. Subgraph Studio is the fully decentralized version of the Hosted Service. Hosted Service will eventually be sunset once Studio reaches feature parity. Because our project’s metadata is stored in IPFS, we will be using the Hosted Service.
 
 You can spin up a subgraph in just a few minutes with the help of [The Graph’s CLI](https://thegraph.com/docs/en/developer/quick-start/). 
+
 1\. Head to the [Hosted Service](https://thegraph.com/hosted-service/) and sign up with Github. 
 
 2\. Navigate to “My Dashboard”, then hit “Add subgraph” and give it a name and description. The other details are optional. Then hit “Create Subgraph” at the bottom of the page. You’ll notice you’re given an access token which you’ll need to deploy your subgraph later.
