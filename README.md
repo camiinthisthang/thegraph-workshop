@@ -1,7 +1,7 @@
 # subgraph-workshop
 
 ## Goal
-This workshop will walk you through creating your first subgraph. To read more about what THe Graph is and its role in the web3 stack, check out [this blog post.]()
+This workshop will walk you through creating your first subgraph. To read more about what The Graph is and its role in the web3 stack, check out [this blog post.]()
 
 ### Resources:
 Query the subgraph [here.](https://thegraph.com/hosted-service/subgraph/camiinthisthang/fameladysquad?query=Example%20query)
