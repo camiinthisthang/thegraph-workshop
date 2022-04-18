@@ -85,6 +85,9 @@ type User @entity {
 ![graph-4.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645860335468/uYKoSCS1G.png)
 - The names of the entities you want to query information about. Update the name of your entities to match the entities you defined in your schema at ```dataSources.mapping.entities```.
 
+<img width="445" alt="Screen Shot 2022-04-18 at 4 58 38 PM" src="https://user-images.githubusercontent.com/15346823/163877064-1310e407-9b22-4a9f-91b1-b23999a77e38.png">
+
+
 8\. Lastly, write mappings in AssemblyScript which transforms the raw Ethereum data read from the blockchain into the entities defined in your schema. This is the trickiest part because there are some concepts that are unique to The Graph Node. The big idea here is to work with raw data from the blockchain and apply logic to transform it to meet the needs of your schema.
 
 Example: Following the Fame Lady example we talked about above, the raw data we will get from the blockchain will be using the getter methods that come standard with an ERC-721 implementation. Because of this, the only data that will be able to read directly from the blockchain will be the ```tokenID```, and the ```owner```. In our mappings, we have to work with these two pieces of data to resolve the rest of the properties: ```hairStyle```, ```skinColor```, ```eyeColor```, and ```faceExpression```. Using the ```tokenID```, we would need to use the IPFS hash to see where this metadata is stored. Once we access this, we need to save this data to a variable, and then save this variable to The Graph node to make it accessible to query. [Check out the source code for this here.](https://github.com/camiinthisthang/fameladysquad-subgraph)
